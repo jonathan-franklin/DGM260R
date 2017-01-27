@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Row Boat.ma
-//Last modified: Thu, Jan 26, 2017 05:14:47 PM
+//Last modified: Thu, Jan 26, 2017 05:21:45 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,7 +13,7 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "582D6F60-0C48-2C3D-14D6-288DAAEAAB7B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.4035182489584352 7.2452909471398037 -1.5953338321275174 ;
+	setAttr ".t" -type "double3" 2.3387000219377239 6.6682509775281886 1.1525544337924081 ;
 	setAttr ".r" -type "double3" -70.538352729532065 52.200000000000131 5.1892936498399864e-015 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "B5FA2C18-2444-9BCA-D116-9688AE516E1A";
