@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: simian_bot_01.ma
-//Last modified: Thu, Mar 02, 2017 12:36:54 PM
+//Name: simian_bot_02.ma
+//Last modified: Thu, Mar 02, 2017 12:37:01 PM
 //Codeset: UTF-8
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -3244,4 +3244,4 @@ connectAttr "pCylinderShape6.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape6.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape7.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape8.iog" ":initialShadingGroup.dsm" -na;
-// End of simian_bot_01.ma
+// End of simian_bot_02.ma
